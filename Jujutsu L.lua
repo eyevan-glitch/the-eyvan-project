@@ -1,3 +1,4 @@
+local library = loadstring(game:HttpGet('https://github.com/eyevan-glitch/the-eyvan-project/blob/main/DEPENDENCIES/Library.lua'))()
 -- UI LIBRARY TABS, BUTTONS, TOGGLE BUTTONS, ETC:
 library.rank = "player"
 local Wm = library:Watermark("eyevan | v" .. library.version ..  " | " .. library:GetUsername() .. " | rank: " .. library.rank)
@@ -280,4 +281,5 @@ local FinishedLoading = Notif:Notify("Loaded EYEVAN Beta", 4, "success")
     
     -- / library:PromptDiscord("invite")
     -- invites you to a discord
+
 ]]
